@@ -1,0 +1,245 @@
+{
+  "customers": [
+      {
+          "customer_id": 1,
+          "customer_name": "John Doe",
+          "orders": [
+              {
+                  "order_id": 1,
+                  "skin_name": "Reaver Vandal",
+                  "price": 1775,
+                  "discount": 0.1
+              },
+              {
+                  "order_id": 2,
+                  "skin_name": "Prime Collection",
+                  "price": 3550,
+                  "discount": 0.15
+              },
+              {
+                  "order_id": 3,
+                  "skin_name": "Ego Collection",
+                  "price": 3250,
+                  "discount": 0.1
+              }
+          ]
+      },
+      {
+          "customer_id": 2,
+          "customer_name": "Jane Smith",
+          "orders": [
+              {
+                  "order_id": 4,
+                  "skin_name": "Elderflame Operator",
+                  "price": 2475,
+                  "discount": 0.2
+              },
+              {
+                  "order_id": 5,
+                  "skin_name": "Sovereign Ghost",
+                  "price": 1775,
+                  "discount": 0.05
+              },
+              {
+                  "order_id": 6,
+                  "skin_name": "Celestial Collection",
+                  "price": 3550,
+                  "discount": 0.15
+              }
+          ]
+      },
+      {
+          "customer_id": 3,
+          "customer_name": "Bob Johnson",
+          "orders": [
+              {
+                  "order_id": 7,
+                  "skin_name": "Sovereign Collection",
+                  "price": 3250,
+                  "discount": 0.1
+              },
+              {
+                  "order_id": 8,
+                  "skin_name": "Recon Collection",
+                  "price": 1800,
+                  "discount": 0.05
+              },
+              {
+                  "order_id": 9,
+                  "skin_name": "Avalanche Bulldog",
+                  "price": 1775,
+                  "discount": 0.05
+              }
+          ]
+      },
+      {
+          "customer_id": 4,
+          "customer_name": "Mary Williams",
+          "orders": [
+              {
+                  "order_id": 10,
+                  "skin_name": "Sakura Classic",
+                  "price": 875,
+                  "discount": 0.05
+              },
+              {
+                  "order_id": 11,
+                  "skin_name": "Surge Collection",
+                  "price": 2900,
+                  "discount": 0.1
+              },
+              {
+                  "order_id": 12,
+                  "skin_name": "Ion Phantom",
+                  "price": 1775,
+                  "discount": 0.05
+              }
+          ]
+      },
+      {
+          "customer_id": 5,
+          "customer_name": "David Lee",
+          "orders": [
+              {
+                  "order_id": 13,
+                  "skin_name": "Valorant GO! Vol. 1",
+                  "price": 2175,
+                  "discount": 0.15
+              },
+              {
+                  "order_id": 14,
+                  "skin_name": "Oni Operator",
+                  "price": 2475,
+                  "discount": 0.2
+              },
+              {
+                  "order_id": 15,
+                  "skin_name": "Infinity Collection",
+                  "price": 3550,
+                  "discount": 0.15
+                }
+              ]
+          },
+          {
+                "customer_id": 6,
+                "customer_name": "Sophie Garcia",
+                "orders": [
+                    {
+                        "order_id": 16,
+                        "skin_name": "Forsaken Vandal",
+                        "price": 1775,
+                        "discount": 0.1
+                    },
+                    {
+                        "order_id": 17,
+                        "skin_name": "Ruination Collection",
+                        "price": 3250,
+                        "discount": 0.1
+                    },
+                    {
+                        "order_id": 18,
+                        "skin_name": "Spline Collection",
+                        "price": 2900,
+                        "discount": 0.1
+                      }
+                    ]
+                },
+                {
+                "customer_id": 7,
+                "customer_name": "Kevin Patel",
+                "orders": [
+                    {
+                        "order_id": 19,
+                        "skin_name": "Infantry Collection",
+                        "price": 3550,
+                        "discount": 0.15
+                    },
+                    {
+                        "order_id": 20,
+                        "skin_name": "Outpost Collection",
+                        "price": 2900,
+                        "discount": 0.1
+                    },
+                    {
+                        "order_id": 21,
+                        "skin_name": "Origin Collection",
+                        "price": 3250,
+                        "discount": 0.1
+                    }
+                ]
+            },
+            {
+                "customer_id": 8,
+                "customer_name": "Anna Kim",
+                "orders": [
+                    {
+                        "order_id": 22,
+                        "skin_name": "Glitchpop Classic",
+                        "price": 875,
+                        "discount": 0.05
+                    },
+                    {
+                        "order_id": 23,
+                        "skin_name": "Sovereign Ghost",
+                        "price": 1775,
+                        "discount": 0.05
+                    },
+                    {
+                        "order_id": 24,
+                        "skin_name": "Spline Collection",
+                        "price": 2900,
+                        "discount": 0.1
+                    }
+                ]
+            },
+            {
+                "customer_id": 9,
+                "customer_name": "Mark Wilson",
+                "orders": [
+                    {
+                        "order_id": 25,
+                        "skin_name": "Celestial Collection",
+                        "price": 3550,
+                        "discount": 0.15
+                    },
+                    {
+                        "order_id": 26,
+                        "skin_name": "Infantry Ghost",
+                        "price": 1775,
+                        "discount": 0.05
+                    },
+                    {
+                        "order_id": 27,
+                        "skin_name": "Origin Collection",
+                        "price": 3250,
+                        "discount": 0.1
+                    }
+                ]
+            },
+            {
+                "customer_id": 10,
+                "customer_name": "Sarah Brownie",
+                "orders": [
+                    {
+                        "order_id": 28,
+                        "skin_name": "Ego Collection",
+                        "price": 3250,
+                        "discount": 0.1
+                    },
+                    {
+                        "order_id": 29,
+                        "skin_name": "Sovereign Sword",
+                        "price": 2475,
+                        "discount": 0.2
+                    },
+                    {
+                        "order_id": 30,
+                        "skin_name": "Infantry Stinger",
+                        "price": 1100,
+                        "discount": 0.05
+                    }
+                ]
+            }
+        ]
+      }
+        

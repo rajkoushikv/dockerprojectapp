@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Customer Orders</title>
+    <style>
+      /* Define the grid layout */
+      .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+      }
+
+      /* Define the style for each customer box */
+      .customer-box {
+        border: 1px solid #ccc;
+        padding: 10px;
+        background-color: #f9f9f9;
+      }
+
+      /* Define the style for the customer name */
+      .customer-name {
+        font-weight: bold;
+        font-size: 1.2em;
+        margin-bottom: 10px;
+      }
+
+      /* Define the style for each order box */
+      .order-box {
+        margin-bottom: 10px;
+      }
+
+      /* Define the style for the order details */
+      .order-details {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 5px;
+      }
+
+      /* Define the style for the order price */
+      .order-price {
+        font-weight: bold;
+      }
+
+      /* Define the style for the order discount */
+      .order-discount {
+        color: #666;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid-container">
+      <!-- Loop through each customer in the JSON data -->
+      {{#each customers}}
+        <div class="customer-box">
+          <!-- Display the customer name -->
+          <div class="customer-name">{{this.customer_name}}</div>
+
+          <!-- Loop through each order for this customer -->
+          {{#each this.orders}}
+            <div class="order-box">
+              <!-- Display the skin name -->
+              {{this.skin_name}}
+
+              <!-- Display the order details -->
+              <div class="order-details">
+                <div class="order-price">Price: {{this.price}}</div>
+                <div class="order-discount">Discount: {{this.discount}}</div>
+              </div>
+            </div>
+          {{/each}}
+        </div>
+      {{/each}}
+    </div>
+  </body>
+</html>
