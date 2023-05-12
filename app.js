@@ -20,12 +20,12 @@ const ordersTemplate = handlebars.compile(ordersSource);
 const orderSource = fs.readFileSync('order.html', 'utf8');
 const orderTemplate = handlebars.compile(orderSource);
 
-// Route to render the customer list in HTML format
+// Route to render the customers
 app.get('/', (req, res) => {
     res.redirect('/customers');
    });
 
-// Route to get all customers in JSON and HTML formats
+// Route to get all customers
 app.get('/customers', (req, res) => {
   const data = {
     customers: customers.customers
@@ -38,7 +38,7 @@ app.get('/customers', (req, res) => {
   }
 });
 
-// Route to get a specific customer by ID in JSON and HTML formats
+// Route to get a specific customer by ID
 app.get('/customers/:id', (req, res) => {
   const customerId = Number(req.params.id);
   const customer = customers.customers.find(c => c.customer_id === customerId);
@@ -57,7 +57,7 @@ app.get('/customers/:id', (req, res) => {
   }
 });
 
-// Route to get all orders for a specific customer by ID in JSON and HTML formats
+// Route to get all orders for a specific customer by ID
 app.get('/customers/:id/orders', (req, res) => {
   const customerId = Number(req.params.id);
   const customer = customers.customers.find(c => c.customer_id === customerId);
@@ -77,7 +77,7 @@ app.get('/customers/:id/orders', (req, res) => {
   }
 });
 
-// Route to get a specific order by customer ID and order ID in JSON and HTML formats
+// Route to get a specific order by customer ID and order ID
 app.get('/customers/:customerId/orders/:orderId', (req, res) => {
   const customerId = Number(req.params.customerId);
   const orderId = Number(req.params.orderId);
