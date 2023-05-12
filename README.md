@@ -35,3 +35,16 @@ Install Node.js for your OS
 10. Visit ```http://localhost:<portnumber>```
 
 You should be able to browse all the 4 routes in the app which shows customers data with details and order data with details.
+
+## API End Points
+
+Based on the JSON file, It has 4 GET routes in Valorant Store Data.
+
+1) It Shows Customers data in ```/customers```
+
+2) It shows Customer info in ```/customers/:id```
+ 
+3) It shows Customer orders in ```/customers/:customerid/orders```
+
+4) It shows Customer order details in ```/customers/:customerid/orders/:orderid```
+
